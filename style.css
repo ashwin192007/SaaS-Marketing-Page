@@ -92,3 +92,55 @@ body {
     font-style: italic;
     border-radius: 8px;
 }
+.features-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 50px; 
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.feature-card {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card .icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.4rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #555;
+}
